@@ -8,7 +8,7 @@
 import UIKit
 import CoreData
 
-class ViewController: UITableViewController {
+class MangakaViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,6 +62,8 @@ class ViewController: UITableViewController {
         tableView.reloadData()
     }
     
+    // MARK: - Table view data source
+    
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         return true
     }
@@ -98,12 +100,8 @@ class ViewController: UITableViewController {
         performSegue(withIdentifier: "MangaViewSegue", sender: self)
     }
     
+    // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if let navVC = segue.destination as? UINavigationController {
-//            if let tableVC = navVC.topViewController as? MangaTableViewController {                print(selectedMangaka?.name)
-//                tableVC.mangaka = selectedMangaka
-//            }
-//        }
         if let tableVC = segue.destination as? MangaTableViewController {
             tableVC.mangaka = selectedMangaka
         }

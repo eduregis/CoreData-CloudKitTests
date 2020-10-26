@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E1641A9253F1B0A004F13DC /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1641A8253F1B0A004F13DC /* CloudKit.framework */; };
+		2E1641B1253F37C6004F13DC /* Tabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1641B0253F37C6004F13DC /* Tabbar.storyboard */; };
+		2E1641B9253F38AD004F13DC /* Manga.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1641B8253F38AD004F13DC /* Manga.storyboard */; };
+		2E1641C1253F3B0F004F13DC /* MangaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1641C0253F3B0F004F13DC /* MangaViewController.swift */; };
 		2E47FDE32535EB4500BA57B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E47FDE22535EB4500BA57B0 /* AppDelegate.swift */; };
 		2E47FDE52535EB4500BA57B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E47FDE42535EB4500BA57B0 /* SceneDelegate.swift */; };
-		2E47FDE72535EB4500BA57B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E47FDE62535EB4500BA57B0 /* ViewController.swift */; };
-		2E47FDEA2535EB4500BA57B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E47FDE82535EB4500BA57B0 /* Main.storyboard */; };
+		2E47FDE72535EB4500BA57B0 /* MangakaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E47FDE62535EB4500BA57B0 /* MangakaViewController.swift */; };
+		2E47FDEA2535EB4500BA57B0 /* Mangaka.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E47FDE82535EB4500BA57B0 /* Mangaka.storyboard */; };
 		2E47FDED2535EB4500BA57B0 /* CoreDataTests.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E47FDEB2535EB4500BA57B0 /* CoreDataTests.xcdatamodeld */; };
 		2E47FDEF2535EB4600BA57B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E47FDEE2535EB4600BA57B0 /* Assets.xcassets */; };
 		2E47FDF22535EB4600BA57B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E47FDF02535EB4600BA57B0 /* LaunchScreen.storyboard */; };
@@ -43,11 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E1641A3253F1B07004F13DC /* CoreDataTests.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoreDataTests.entitlements; sourceTree = "<group>"; };
+		2E1641A8253F1B0A004F13DC /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		2E1641B0253F37C6004F13DC /* Tabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tabbar.storyboard; sourceTree = "<group>"; };
+		2E1641B8253F38AD004F13DC /* Manga.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Manga.storyboard; sourceTree = "<group>"; };
+		2E1641C0253F3B0F004F13DC /* MangaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaViewController.swift; sourceTree = "<group>"; };
 		2E47FDDF2535EB4500BA57B0 /* CoreDataTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E47FDE22535EB4500BA57B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E47FDE42535EB4500BA57B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2E47FDE62535EB4500BA57B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2E47FDE92535EB4500BA57B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E47FDE62535EB4500BA57B0 /* MangakaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangakaViewController.swift; sourceTree = "<group>"; };
+		2E47FDE92535EB4500BA57B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Mangaka.storyboard; sourceTree = "<group>"; };
 		2E47FDEC2535EB4500BA57B0 /* CoreDataTests.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataTests.xcdatamodel; sourceTree = "<group>"; };
 		2E47FDEE2535EB4600BA57B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E47FDF12535EB4600BA57B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -72,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E1641A9253F1B0A004F13DC /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E1641A7253F1B0A004F13DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E1641A8253F1B0A004F13DC /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2E47FDD62535EB4500BA57B0 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +117,7 @@
 				2E47FDFB2535EB4600BA57B0 /* CoreDataTestsTests */,
 				2E47FE062535EB4600BA57B0 /* CoreDataTestsUITests */,
 				2E47FDE02535EB4500BA57B0 /* Products */,
+				2E1641A7253F1B0A004F13DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +134,7 @@
 		2E47FDE12535EB4500BA57B0 /* CoreDataTests */ = {
 			isa = PBXGroup;
 			children = (
+				2E1641A3253F1B07004F13DC /* CoreDataTests.entitlements */,
 				2E9F924B2535EFB700FE9C0D /* Model */,
 				2E47FDE22535EB4500BA57B0 /* AppDelegate.swift */,
 				2E47FDE42535EB4500BA57B0 /* SceneDelegate.swift */,
@@ -150,8 +170,10 @@
 		2E7A843F25363F7300C5BC8F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2E47FDE82535EB4500BA57B0 /* Main.storyboard */,
+				2E47FDE82535EB4500BA57B0 /* Mangaka.storyboard */,
 				2E7A843725363F1800C5BC8F /* MangaTableView.storyboard */,
+				2E1641B0253F37C6004F13DC /* Tabbar.storyboard */,
+				2E1641B8253F38AD004F13DC /* Manga.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -159,8 +181,9 @@
 		2E7A844025363F8500C5BC8F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2E47FDE62535EB4500BA57B0 /* ViewController.swift */,
+				2E47FDE62535EB4500BA57B0 /* MangakaViewController.swift */,
 				2E7A843225362C2000C5BC8F /* MangaTableViewController.swift */,
+				2E1641C0253F3B0F004F13DC /* MangaViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -279,9 +302,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E1641B1253F37C6004F13DC /* Tabbar.storyboard in Resources */,
 				2E47FDF22535EB4600BA57B0 /* LaunchScreen.storyboard in Resources */,
 				2E47FDEF2535EB4600BA57B0 /* Assets.xcassets in Resources */,
-				2E47FDEA2535EB4500BA57B0 /* Main.storyboard in Resources */,
+				2E1641B9253F38AD004F13DC /* Manga.storyboard in Resources */,
+				2E47FDEA2535EB4500BA57B0 /* Mangaka.storyboard in Resources */,
 				2E7A843825363F1800C5BC8F /* MangaTableView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,8 +339,9 @@
 				2E9F92702535F2F600FE9C0D /* Mangaka+CoreDataProperties.swift in Sources */,
 				2E9F92722535F2F600FE9C0D /* Manga+CoreDataProperties.swift in Sources */,
 				2E9F92712535F2F600FE9C0D /* Manga+CoreDataClass.swift in Sources */,
-				2E47FDE72535EB4500BA57B0 /* ViewController.swift in Sources */,
+				2E47FDE72535EB4500BA57B0 /* MangakaViewController.swift in Sources */,
 				2E47FDE32535EB4500BA57B0 /* AppDelegate.swift in Sources */,
+				2E1641C1253F3B0F004F13DC /* MangaViewController.swift in Sources */,
 				2E47FDE52535EB4500BA57B0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,12 +378,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2E47FDE82535EB4500BA57B0 /* Main.storyboard */ = {
+		2E47FDE82535EB4500BA57B0 /* Mangaka.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2E47FDE92535EB4500BA57B0 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Mangaka.storyboard;
 			sourceTree = "<group>";
 		};
 		2E47FDF02535EB4600BA57B0 /* LaunchScreen.storyboard */ = {
@@ -492,7 +518,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoreDataTests/CoreDataTests.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3PDP2RPN7;
 				INFOPLIST_FILE = CoreDataTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -510,7 +538,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoreDataTests/CoreDataTests.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3PDP2RPN7;
 				INFOPLIST_FILE = CoreDataTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

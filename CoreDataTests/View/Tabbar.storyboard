@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="muS-BZ-gxl">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="wxH-bC-jnf">
+            <objects>
+                <tabBarController id="muS-BZ-gxl" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aLj-pK-RK9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="yPT-Ci-UA0" kind="relationship" relationship="viewControllers" id="hhQ-Ns-4Np"/>
+                        <segue destination="1Ld-hg-ENe" kind="relationship" relationship="viewControllers" id="ahp-U3-qOF"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zqD-rw-07b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-550" y="54"/>
+        </scene>
+        <!--Mangaka-->
+        <scene sceneID="lWB-bO-oDv">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Mangaka" id="yPT-Ci-UA0" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Kua-QB-qma"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="flL-8q-uQq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="328" y="-87"/>
+        </scene>
+        <!--Manga-->
+        <scene sceneID="PRZ-v0-GdF">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Manga" id="1Ld-hg-ENe" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="YDG-Tu-IAx"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qaz-9X-8LP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="317" y="164"/>
+        </scene>
+    </scenes>
+</document>
